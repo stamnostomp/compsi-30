@@ -1,0 +1,56 @@
+---
+title: sorts cheat sheet
+output: pdf_document
+---
+open the code on your second monitor
+
+\tableofcontents
+
+# sorts
+
+
+
+
+## bubble sort
+
+  a bubble sort makes passes thrue a list and compares adjacent numbers and compares them eg.
+  if you have a list that is list=[54,22,87,30,90] on the first pass you would do is 54>22 if yes filp them so
+  your list is now [22,54,...] and then it would start from the beging and do it over untell if found two unso	rted numbers and flip.
+
+step by step
+
+* line one two three
+
+  these are just get how long the user would like the list to be
+  line 3 makes a list as long as the input from the user
+
+* line 5 from 14 is the sorting
+
+     * def bubble makes a function naimed bubble and the (badlist) is for when we call it it and put what we are going to run it on it will call that badlist
+
+     * lenght = len(badlist) - 1 this is to get the true lenght of the list beasue it counts starting at 0 so if the list has 12 numbers it will be 13 but we want to have true value so -1 off the len
+
+
+     * while not sorted this runs the code below as long as sorted = False
+
+
+     *
+
+
+
+
+
+
+
+##  selection sort
+
+
+```{python}
+z = [4,5,7,9,62,82,7]
+
+del z[4]
+print(z)
+```
+
+
+
